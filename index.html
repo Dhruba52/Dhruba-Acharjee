@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhruba Acharjee | Electrical &amp; Electronic Engineering Student</title>
+    <meta name="description" content="Personal portfolio of Dhruba Acharjee — Electrical &amp; Electronic Engineering student, tech enthusiast, anime lover, creator, and future entrepreneur." />
+    <meta property="og:title" content="Dhruba Acharjee | Electrical &amp; Electronic Engineering Student" />
+    <meta property="og:description" content="Personal portfolio of Dhruba Acharjee — Electrical &amp; Electronic Engineering student, tech enthusiast, anime lover, creator, and future entrepreneur." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/dhruba_photo.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/dhruba_photo.jpg" />
+    <link rel="icon" type="image/jpeg" href="/dhruba_photo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        const saved = localStorage.getItem('dhruba_portfolio_theme');
+        if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-[#07090e] text-slate-800 dark:text-slate-100 antialiased selection:bg-cyan-500/25 selection:text-cyan-800 dark:selection:text-cyan-200 transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
